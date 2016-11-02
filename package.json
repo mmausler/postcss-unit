@@ -1,0 +1,32 @@
+{
+  "name": "postcss-unit",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that returns or assigns an inputs unit, ported from Stylus",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "units"
+  ],
+  "author": "Michael Mausler <michaelmausler@gmail.com>",
+  "license": "MIT",
+  "repository": "mmausler/postcss-unit",
+  "bugs": {
+    "url": "https://github.com/mmausler/postcss-unit/issues"
+  },
+  "homepage": "https://github.com/mmausler/postcss-unit",
+  "dependencies": {
+    "postcss": "^5.2.5"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.9.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
